@@ -1,4 +1,4 @@
-# gitignore.io tool
+# A command line tool for gitignore.io
 
 ## Installation
 
