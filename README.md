@@ -22,4 +22,4 @@ gitignoreio-cli java intellij
 ```
 
 ## Pypi 
-https://pypi.org/manage/project/gitignoreio-cli/releases/
+https://pypi.org/project/gitignoreio-cli/
