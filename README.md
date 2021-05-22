@@ -14,11 +14,11 @@ python3 -m pip install gitignoreio-cli
 ## Usage
 download .gitignore file for java
 ```bash
-gitignore-cli java
+gitignoreio-cli java
 ```
 download .gitignore file for java and intellij
 ```bash
-gitignore-cli java intellij
+gitignoreio-cli java intellij
 ```
 
 ## Pypi 
