@@ -1,8 +1,8 @@
 # gitignore.io tool
 
-##Installation
+## Installation
 
-##Usage
+## Usage
 download .gitignore file for java
 ```bash
 gitignore-cli java
