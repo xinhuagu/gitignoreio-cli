@@ -7,8 +7,8 @@ here = pathlib.Path(__file__).parent.resolve()
 long_description = (here / 'README.md').read_text(encoding='utf-8')
 
 setup(
-    name='gitignore-cli',  # Required
-    version='0.0.1',  # Required
+    name='gitignoreio-cli',  # Required
+    version='0.0.2',  # Required
     description='command line to downlad .gitignore file from gitignore.io', 
     url='https://github.com/xinhuagu/gitignoreio-cli',  # Optional
     author='Xinhua Gu',
@@ -28,6 +28,6 @@ setup(
         'Bug Reports': 'https://github.com/pypa/sampleproject/issues',
         'Funding': 'https://donate.pypi.org',
         'Say Thanks!': 'http://saythanks.io/to/example',
-        'Source': 'https://github.com/pypa/sampleproject/',
+        'Source': 'https://github.com/xinhuagu/gitignoreio-cli',
     },
 )
