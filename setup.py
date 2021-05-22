@@ -29,6 +29,12 @@ setup(
 
     install_requires=['requests,argparse'], 
 
+    entry_points={
+        'console_scripts': [
+           'gitignoreio-cli=src.bin:main',
+        ],
+    },
+
     project_urls={  # Optional
         'Bug Reports': 'https://github.com/pypa/sampleproject/issues',
         'Funding': 'https://donate.pypi.org',
