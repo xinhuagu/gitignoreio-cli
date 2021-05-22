@@ -5,7 +5,11 @@
     <img alt="License MIT" src="https://img.shields.io/badge/License-MIT-green.svg" />  
   </a>
 </p>
+
 ## Installation
+```bash
+python3 -m pip install gitignoreio-cli
+```
 
 ## Usage
 download .gitignore file for java
@@ -16,3 +20,6 @@ download .gitignore file for java and intellij
 ```bash
 gitignore-cli java intellij
 ```
+
+## Pypi 
+https://pypi.org/manage/project/gitignoreio-cli/releases/
