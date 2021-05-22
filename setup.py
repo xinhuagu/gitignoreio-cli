@@ -8,26 +8,15 @@ long_description = (here / 'README.md').read_text(encoding='utf-8')
 
 setup(
     name='gitignore-cli',  # Required
-
     version='0.0.1',  # Required
-
     description='command line to downlad .gitignore file from gitignore.io', 
-
     url='https://github.com/xinhuagu/gitignoreio-cli',  # Optional
-
     author='Xinhua Gu',
-
     author_email='xinhua.gu@gmail.com',
-
-
     keywords='git, gitignore, development', 
-
-    package_dir={'': 'src'},  # Optional
-
-    packages=find_packages(where='src'), 
+    packages=find_packages(),
     python_requires='>=3.6, <4',
-
-    install_requires=['requests,argparse'], 
+    install_requires=['requests','argparse'], 
 
     entry_points={
         'console_scripts': [
