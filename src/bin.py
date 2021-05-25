@@ -12,12 +12,8 @@ def main(argv=None):
     args = parser.parse_args(argv)
 
     url = 'https://www.toptal.com/developers/gitignore/api/'
-    print(args)
-    print(args.language)
-    for name in args.language:
-        url=url+name+','
+    url = '.'.join(args.language)
 
-    url = url[:-1]
     print(url)
     r = requests.get(url, allow_redirects=True)
 
